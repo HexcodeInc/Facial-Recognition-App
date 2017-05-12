@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<head>
+</head>
+<body>
+	{% if news_list%}
+<ul>
+{% for news_item in news_list%}
+<li>{{news_item.news_id}}</li>
+{% endfor %}
+{% endif %}
+
+</body>
+
+<HTML>
